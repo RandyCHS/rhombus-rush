@@ -1,0 +1,42 @@
+{
+    "name": "rhombus-rush",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "multiplayer": "*",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.1.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.0.14",
+        "arcade-shapes": "pub:63135-82458-33080-84377",
+        "pxt-scaling": "github:jwunderl/pxt-scaling#v0.1.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "sprite-scaling": "*",
+        "arcade-tilemap-reader": "pub:32699-45137-12786-59229",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.46",
+        "tag": "v1.12.46",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/e66fb08db35df2249cd64300195259c64d497106",
+        "target": "1.12.47",
+        "pxt": "8.5.57",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
